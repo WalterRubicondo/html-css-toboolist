@@ -6,26 +6,26 @@
     <link rel="stylesheet" href="./assets/css/master.css">
   </head>
   <body>
-    <div class="intestazione">
+    <!-- Intestazione -->
+    <div class="header">
       <img src="./assets/img/logo.png" alt="Logo di The Booleaner"  class="logo">
       <h1>Toboolist</h1>
     </div>
-
+<!-- Buttons -->
     <div class="container">
       <div>
-        <button type="button" class="button">
+        <button type="button" class="btn btn-add">
           Add Task
         </button>
-        <button type="button" class="button2" disabled>
+        <button type="button" class="btn" disabled>
           Add Section
         </button>
         <hr>
       </div>
-
+<!-- To do List -->
       <ul class="lista">
         <li>
           <h3>New Task</h3>
-        </li>
         <ul class="sublista">
           <li>
             <span class="checked">
@@ -36,9 +36,9 @@
             </span>
           </li>
         </ul>
+        </li>
         <li>
           <h3>Today</h3>
-        </li>
         <ul class="sublista">
           <li>
             <span class="checked">
@@ -73,9 +73,9 @@
             </span>
           </li>
         </ul>
+        </li>
         <li>
           <h3>Upcoming</h3>
-        </li>
         <ul class="sublista">
           <li>
             <span class="ballot">
@@ -107,6 +107,7 @@
             </span>
           </li>
         </ul>
+        </li>
       </ul>
     </div>
   </body>
